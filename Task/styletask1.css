@@ -1,0 +1,410 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #616161;
+  --secondary-color: #999999;
+  --primary-font-family: "Lato", sans-serif;
+  --secondary-font-family: "Roboto", sans-serif;
+}
+
+#app {
+  padding: 1em;
+  margin: 0 auto;
+  color: var(--primary-color);
+  font-family: var(--secondary-font-family);
+  background-color: black;
+  font-size: 12px;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar-mobile {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 17px;
+}
+
+.navbar-mobile a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.author-name-job-section {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-image: ;
+}
+
+.author-name-job-section h1 {
+  /* width: 100px; */
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+
+.navbar-desktop {
+  display: none;
+}
+
+.man-smoke {
+  /* margin: 0 auto; */
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.my-name-section h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.my-name-section hr {
+  border: solid 2px var(--primary-color);
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.my-name-section p {
+  text-align: justify;
+}
+
+.my-name-section {
+  margin-bottom: 20px;
+}
+
+.my-skills-section h1 {
+  color: white;
+  margin-bottom: 25px;
+}
+
+.inner-bar {
+  background-color: var(--primary-color);
+  height: 100%;
+  width: 50%;
+}
+
+.design-bar {
+  width: 80%;
+}
+
+.photoshop-bar {
+  width: 70%;
+}
+
+.outer-bar {
+  height: 20px;
+  width: 100%;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.projects-container {
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.download-resume {
+  background-color: #f1f1f1;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+.download-resume i {
+  margin-right: 10px;
+}
+
+.my-price-heading {
+  color: #c0c0c0;
+  margin-bottom: 15px;
+}
+
+.plan-container-heading {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.plan-container-content {
+  background-color: var(--secondary-color);
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: var(--primary-color) solid 0.5px;
+}
+
+.price-per-month p {
+  color: #444444;
+}
+
+.sign-up {
+  background-color: yellow;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #919191;
+}
+
+.sign-up-inner {
+  text-align: center;
+  /* padding-top: 5px;
+  padding-bottom: 5px; */
+  width: 70px;
+  background-color: var(--secondary-color);
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+}
+
+.plan-container {
+  margin-bottom: 15px;
+}
+
+.my-price-section {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.my-reputation-section h1 {
+  color: #cacaca;
+  margin-bottom: 25px;
+}
+
+.reputation-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.reputation-container img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.text-title-subtitle {
+  display: flex;
+}
+
+.text-title-subtitle p {
+  text-align: ;
+}
+
+.text-title-subtitle-subtext {
+  display: flex;
+  align-items: flex-end;
+}
+
+.img-container {
+  width: 20%;
+}
+
+.my-photos-section h1 {
+  color: #cacaca;
+  margin-bottom: 25px;
+}
+
+.my-photos-section hr {
+  border: solid 2px var(--primary-color);
+  width: 25%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.my-photos-section img {
+  width: 100%;
+}
+
+.my-photos-section {
+  margin-bottom: 30px;
+}
+
+.contact-me-section hr {
+  border: solid 2px var(--primary-color);
+  width: 25%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.contact-me-section h1 {
+  color: #f0f0f0;
+}
+
+.contact-me-info {
+  display: flex;
+  flex-direction: row;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+  /* justify-content: space-between; */
+}
+
+.contact-me-info i {
+  width: 3%;
+  color: white;
+}
+
+.input-button {
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.send-button-container {
+  width: 30%;
+  background-color: white;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.name {
+  margin-top: 20px;
+}
+
+.input-button {
+  height: 30px;
+  line-height: 30px;
+}
+
+.send-button-container p {
+  font-size: 12px;
+}
+
+.contact-me-section {
+  margin-bottom: 30px;
+}
+
+.icon-container {
+  width: 50%;
+  max-width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.download-resume-hr {
+  border: solid 2px var(--primary-color);
+  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 1100px) {
+  .navbar-mobile {
+    display: none;
+  }
+
+  #app {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  /* #app {
+    width: 1000px;
+  } */
+
+  .projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .plan-container-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .plan-container {
+    width: 49%;
+  }
+
+  .my-photos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .my-photos-second-column img {
+    height: 25%;
+  }
+
+  .my-photos-second-column {
+    margin-left: 10px;
+  }
+
+  .navbar-desktop a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .navbar-desktop-container {
+    position: fixed;
+    left: 0vh;
+    bottom: 0vh;
+  }
+
+  .navbar-desktop {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: flex-start;
+    height: 40vh;
+    width: 12vh;
+    /* left: 0;
+    bottom: 0; */
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .grey-area {
+    background-color: var(--primary-color);
+  }
+
+  .navbar-desktop-home,
+  .navbar-desktop-about,
+  .navbar-desktop-photos,
+  .navbar-desktop-contact {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .download-resume-hr {
+    display: none;
+  }
+}
